@@ -235,12 +235,7 @@ textarea {
 } 
 
 .links img:hover {
-    background-color: white;
+    /* background-color: white; */
+    border-bottom: 2px solid white;
 }
-
-
-  
-
-
-
 
