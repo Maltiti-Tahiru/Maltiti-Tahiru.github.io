@@ -63,7 +63,7 @@
         <h2>Contact Me</h2>
         <div class="form ">
           <h3>Send a message</h3>
-          <form id="contact-form" action="https://formspree.io/f/xvonwwll" method="POST">
+          <form action="https://formspree.io/f/xvonwwll" method="POST">
             <!-- <label for="name">Name:</label> -->
             <input type="text" id="name" name="name" placeholder="Name" required>
             <br>
@@ -73,7 +73,7 @@
             <!-- <label for="message">Message:</label> -->
             <textarea id="message" name="message" required placeholder="Message"></textarea>
             <br>
-            <input type="submit" value="Submit" id="submitBtn" onclick="clearForm()">
+            <input type="submit" value="Submit" class="submit">
           </form>
         </div>
         <div class="links">
@@ -95,8 +95,8 @@
       </div>
   </main>
 </body>
-<!-- JavaScript -->
 <script>
-  src="script.js"
+  let mailIcon = document.getElementById('mail').src
+  mailIcon.onmouseover= "./images/emailblack.png"
 </script>
 </html>

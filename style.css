@@ -188,13 +188,13 @@ textarea {
 
 }
 
-#submitBtn {
+.submit {
     width: 20vw;
     background-color: white;
     border: none;
 }
 
-#submitBtn:hover {   
+.submit:hover {   
     background-color: black;
     border: white solid;   
     color: white;  
@@ -202,7 +202,7 @@ textarea {
     cursor: pointer;
 }
 
-#submitBtn:active {
+.submit:active {
     transform: scale(0.98);
 }
 
